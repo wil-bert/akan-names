@@ -18,6 +18,6 @@ Cel:+254 70064 3549
 
 Email:[ianwilbuts@gmail.com]
 ## License and copyright
-MIT Licence: []
+MIT Licence:
 
 Copyright(c) 2020.
