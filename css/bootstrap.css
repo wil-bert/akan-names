@@ -204,6 +204,7 @@ svg {
 
 table {
   border-collapse: collapse;
+  font-style: oblique;
 }
 
 caption {
@@ -545,6 +546,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  font-style: inherit;
 }
 
 @media (min-width: 576px) {
@@ -5270,8 +5272,10 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  background-color: #b64529;
   border-radius: 0.3rem;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 @media (min-width: 576px) {
