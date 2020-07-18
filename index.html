@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project2</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <script src="js/bootstrap.js"></script>
-    <script src="js/script.js"></script>
+    <title>Akan names</title>
+    <link href="css/bootstrap.css" rel="stylesheet"></link>
+    <link href="css/style.css" rel="stylesheet"></link>
 </head>
 <body>
     <div class="container">
@@ -62,10 +60,9 @@
         </table>
         <div class="container">
         <h2>Enter your details here;</h2>
-        <form action="/action_page.php">
-                <p id="output"></p>
+        <form action="js/script.js">
             <label for="year">Year of birth:</label><br>
-            <input type="number" id="year" name="year" placeholder="Eg;2020"><br>
+            <input type="number" id="year" name="year" placeholder="Eg;1980"><br>
             <label for="month">Month:</label><br>
             <input type="number" id="month" name="month" placeholder="Month of birth"><br>
             <label for="date">Date of birth:</label><br>
@@ -76,9 +73,10 @@
             <input type="radio" id="female" name="gender" value="female">
             <label for="female">Female</label><br>
         </form>
-        <button type="button" onclick="submission()">Get name</button>
+        <button type="submit" onclick="findName();">Get name</button><br>
 
         </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
