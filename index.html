@@ -63,10 +63,8 @@
         <div class="container">
         <h2>Enter your details here;</h2>
         <form action="/action_page.php">
-            <label for="year">Century of birth:</label><br>
-            <input type="number" id="year" name="year" placeholder="Eg; 19 if born in 1980"><br>
-            <label for="year">Yeae of birth:</label><br>
-            <input type="number" id="year" name="year" placeholder="Eg; 80 if born in 1980"><br>
+            <label for="year">Year of birth:</label><br>
+            <input type="number" id="year" name="year" placeholder="Eg;2020"><br>
             <label for="month">Month:</label><br>
             <input type="number" id="month" name="month" placeholder="Month of birth"><br>
             <label for="date">Date of birth:</label><br>
@@ -77,6 +75,8 @@
             <input type="radio" id="female" name="gender" value="female">
             <label for="female">Female</label><br>
         </form>
+        <button type="button" onclick="submission()">Get name</button>
+
         </div>
     </div>
 </body>
