@@ -8,58 +8,12 @@
     <link href="css/style.css" rel="stylesheet"></link>
 </head>
 <body>
-    <div class="container";">
-        <div class="jumbotron">
-        <h1>Akan Names.</h1>
-        <p>Welcome to Akan naming site.</p>
-        <p>Get to know the exact day you were born and find out what your Akan name is.</p>
-        </div>
-        <p>This site helps you find out what your akan name is depending on the day you were born. It calculates your details using a special formula after you fill in the form provided.</p>
-        <p><em>Below are the different types of names for both males and females with the days of the week included.</em></p>
-        <div class="jumbotron-1">
-        <table style="width: 100%;">
-            <tr>
-                <th>Day</th>
-                <th>Male</th>
-                <th>Female</th>
-            </tr>
-            <tr>
-                <td>Sunday</td>
-                <td>Kwasi</td>
-                <td>Akosua</td>
-            </tr>
-            <tr>
-                <td>Monday</td>
-                <td>Kwadwo</td>
-                <td>Adwoa</td>
-            </tr>
-            <tr>
-                <td>Tuesday</td>
-                <td>Kwabena</td>
-                <td>Abenaa</td>
-            </tr>
-            <tr>
-                <td>Wednesday</td>
-                <td>Kwaku</td>
-                <td>Akua</td>
-            </tr>
-            <tr>
-                <td>Thursday</td>
-                <td>Yaw</td>
-                <td>Yaa</td>
-            </tr>
-            <tr>
-                <td>Friday</td>
-                <td>Kofi</td>
-                <td>Afua</td>
-            </tr>
-            <tr>
-                <td>Saturday</td>
-                <td>Kwame</td>
-                <td>Ama</td>
-            </tr>
-        </table>
-        </div>
+    <div class="jumbotron">
+    <h1>Akan Names.</h1>
+    <p>Welcome to Akan naming site.</p>
+    <p>Get to know the exact day you were born and find out what your Akan name is.</p>
+    </div>
+    <p>This site helps you find out what your akan name is depending on the day you were born. It calculates your details using a special formula after you fill in the form provided.</p>
         <div class="container">
         <h2>Enter your details here;</h2>
         <form action="js/script.js">
@@ -69,13 +23,12 @@
             <input type="number" id="month" name="month" placeholder="Month of birth"><br>
             <label for="date">Date of birth:</label><br>
             <input type="number" id="date" name="date" placeholder="Date of birth"><br>
-            <label for="gender">Gender</label><br>
             <input type="radio" id="male" name="gender" value="male">
             <label for="male">Male</label><br>
             <input type="radio" id="female" name="gender" value="female">
             <label for="female">Female</label><br>
         </form>
-        <button type="submit" onclick="findName();">Get name</button><br>
+        <button type="submit" onclick="findName()">Get name</button><br>
     <div class="sidebar">
         <p>Akan Name</p>
     </div>
