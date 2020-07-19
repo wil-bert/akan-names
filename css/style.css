@@ -1,3 +1,6 @@
+body{
+    background-color: gray;
+}
 .sidebar{
     text-align: right;
     color: red;
