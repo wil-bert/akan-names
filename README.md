@@ -1,6 +1,6 @@
 # AKAM NAMES
 ## Description
-This web applications takes up the user's birthday, calculates it and gives the day he/she was born together with their Akan names. To access my live site, click here [].
+This web applications takes up the user's birthday, calculates it and gives the day he/she was born together with their Akan names. To access my live site, click here [https://wil-bert.github.io/akan-names/].
 ## Author
 Ian Wilbert.
 ## Set up
