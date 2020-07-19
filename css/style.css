@@ -1,0 +1,14 @@
+.sidebar{
+    text-align: center;
+    color: black;
+}
+em{
+    font-size: x-large;
+}
+table{
+    text-align: center;
+}
+.jumbotron-1{
+    background-color: rgba(46, 43, 43, 0.432);
+    width: 50%;
+}
