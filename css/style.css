@@ -1,0 +1,20 @@
+.sidebar{
+    text-align: right;
+    color: red;
+}
+em{
+    font-size: x-large;
+}
+table{
+    text-align: center;
+}
+.jumbotron-1{
+    background-color: rgba(46, 43, 43, 0.432);
+    width: 50%;
+}
+footer{
+    text-align: center;
+    color: darkslategray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
