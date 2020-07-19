@@ -204,6 +204,7 @@ svg {
 
 table {
   border-collapse: collapse;
+  font-style: oblique;
 }
 
 caption {
@@ -545,29 +546,34 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  font-style: inherit;
 }
 
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+    background-color: aquamarine;
   }
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
+    background-color: gray;
   }
 }
 
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
+    background-color: black;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+    background-color: burlywood;
   }
 }
 
@@ -5270,8 +5276,10 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  background-color: #5c6464;
   border-radius: 0.3rem;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 @media (min-width: 576px) {
@@ -10243,6 +10251,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .container {
     min-width: 992px !important;
+
   }
   .navbar {
     display: none;
