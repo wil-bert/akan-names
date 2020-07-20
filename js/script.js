@@ -4,12 +4,12 @@ var daysOfWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","S
 var CC,YY,MM,DD,d;
 
 function validate() {
-    var year = parseInt(document.getElementById("year").value);
+    var year = document.getElementById("year").value;
     if (year = "" || year < 1600){
         alert("Enter a valid year")
         return false;
     }else if (year >= 1600){
-        year;
+        return year;
     }
     var month = parseInt(document.getElementById("month").value);
     if (month = "" || month < 0 || month > 12){
@@ -26,15 +26,26 @@ function validate() {
         date;
     }
 
-    CC = parseInt(year.substring(0,2));
+    CC = parseInt(year.slice(0,2));
+    alert(CC);
     YY = parseInt(year.substring(2,4));
-    MM = parseInt(month.substring(0,2));
-    DD = parseInt(date.substring(0,2));
+    MM = month;
+    DD = date;
     d = (((CC/4)-2*CC-1)+((5*YY/4))+((26*(MM+1)/10))+DD)%7;
-    console.log(d);
+    alert(d);
 
-  var gender = document.querySelector('input[name="gender"]:checked').value;
-  switch (gender){
+    var genders = document.getElementsByName("gender").value;
+    if(genders[0].checked == true){
+      var gender = "male";
+    }
+    else if(genders[1].checked == true){
+      var gender = "female";
+    }
+    else{
+      return false;
+    }
+
+    switch (gender){
     case "male":
         if (d == 0){
             alert("Born on" + daysOfWeek[0] + ",Your Akan name is" + maleNames[0]);
