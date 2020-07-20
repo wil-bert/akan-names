@@ -16,19 +16,18 @@
     <p>This site helps you find out what your akan name is depending on the day you were born. It calculates your details using a special formula after you fill in the form provided.</p>
         <div class="container">
         <h2>Enter your details here;</h2>
-        <form action="js/script.js">
-            <label for="year">Year of birth:</label><br>
-            <input type="number" id="year" name="year" placeholder="Eg;1980"><br>
-            <label for="month">Month:</label><br>
-            <input type="number" id="month" name="month" placeholder="Month of birth"><br>
+        <form>
             <label for="date">Date of birth:</label><br>
-            <input type="number" id="date" name="date" placeholder="Date of birth"><br>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label><br>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label><br>
+            <input type="date" id="date" name="date"><br>
+            <label for="gender">Gender:</label><br>
+            <select name="gender" id="gender">
+                <option value="select">--Select--</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+            <button type="submit" onclick="validate()">Get name</button><br>
         </form>
-        <button type="submit" onclick="validate()">Get name</button><br>
+
     <div class="sidebar">
         <p>Akan Name</p>
     </div>
