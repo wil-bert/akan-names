@@ -33,8 +33,18 @@ function validate() {
     d = (((CC/4)-2*CC-1)+((5*YY/4))+((26*(MM+1)/10))+DD)%7;
     console.log(d);
 
-  var gender = document.querySelector('input[name="gender"]:checked').value;
-  switch (gender){
+    var genders = document.getElementsByName("gender");
+    if(genders[0].checked == true){
+      var gender = "male";
+    }
+    else if(genders[1].checked == true){
+      var gender = "female";
+    }
+    else{
+      return false;
+    }
+
+    switch (gender){
     case "male":
         if (d == 0){
             alert("Born on" + daysOfWeek[0] + ",Your Akan name is" + maleNames[0]);
