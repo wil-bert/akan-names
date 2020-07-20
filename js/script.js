@@ -16,10 +16,10 @@ function validate(){
     var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
     var dayOfWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-    if (date == " " && gender === "male"){
+    if (gender === "male"){
         alert("Born on " + dayOfWeek[calculateDay] + " Your akan name is " + maleNames[calculateDay]);
     }
-    else if (date == " " && gender === "female"){
+    else if (gender === "female"){
         alert("Born on " + dayOfWeek[calculateDay] + " Your akan name is " + femaleNames[calculateDay]);
     }
     else{
